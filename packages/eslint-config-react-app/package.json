@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react-app",
+  "name": "eslint-config-react-app-dezintegrator",
   "version": "3.0.8",
   "description": "ESLint configuration used by Create React App",
   "repository": "facebook/create-react-app",
@@ -11,12 +11,12 @@
     "index.js"
   ],
   "peerDependencies": {
-    "babel-eslint": "9.x",
-    "eslint": "5.x",
-    "eslint-plugin-flowtype": "2.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-react": "7.x"
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-unicorn": "^9.1.1"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.6"
