@@ -516,6 +516,8 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
+      new webpack.NoEmitOnErrorsPlugin(),
+
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
