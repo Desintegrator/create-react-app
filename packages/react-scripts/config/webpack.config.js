@@ -313,7 +313,7 @@ module.exports = function(webpackEnv) {
                 eslintPath: require.resolve('eslint'),
                 // @remove-on-eject-begin
                 baseConfig: {
-                  extends: [require.resolve('eslint-config-react-app')],
+                  extends: [require.resolve('eslint-config-react-app-dezintegrator')],
                 },
                 ignore: false,
                 useEslintrc: false,
