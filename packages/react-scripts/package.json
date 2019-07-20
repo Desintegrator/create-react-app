@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-dezintegrator",
-  "version": "2.1.8d",
+  "version": "2.1.8e",
   "description": "Configuration and scripts for Create React App.",
   "repository": "facebook/create-react-app",
   "license": "MIT",
@@ -38,7 +38,7 @@
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
     "eslint": "5.16.0",
-    "eslint-config-react-app-dezintegrator": "^3.0.8",
+    "eslint-config-react-app-dezintegrator": "^3.0.8b",
     "eslint-loader": "2.1.1",
     "eslint-plugin-flowtype": "2.50.1",
     "eslint-plugin-import": "2.14.0",
